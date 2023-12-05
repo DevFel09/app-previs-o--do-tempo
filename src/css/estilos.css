@@ -5,40 +5,43 @@
     align-items: center;
     height: 100vh;
     justify-content: center;
+    background-image: url(https://images.pexels.com/photos/2114014/pexels-photo-2114014.jpeg);
+    background-size: cover;
  }
 
  .container {
     background-color: #1f2949;
-    color: #ffffff;
+    color: #000000;
     max-width: 330px;
     text-align: center;
-    background-image: url("../imagens/background.png");
+    background-color: transparent;
     background-size: cover;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0 10px 50px;
+    
  }
 
  .busca {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     gap: 5px;
 
  }
  .busca input {
-    background-color: #0a1435;
+    background-color: #0a143525;
     padding: 10px;
     border-radius: 5px;
     border: none;   
     outline: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     font-weight: 700;
     opacity: 0.8;
  }
 
  .busca .btn-busca {
-    background-color: #0a1435;
+    background-color: #0a143525;
     cursor: pointer;
     border: none;
     border-radius: 5px;
@@ -63,7 +66,7 @@
     font-size: 18px;
  }
 
- .informacao-princinpal .temperatura{
+ .informacao-princinpal .temperatura{  
     font-size: 68px;
     margin: 20px 0;
  }
@@ -73,7 +76,7 @@
  }
 
  .informacao-secundaria {
-   background-color: #ffffff;
+   background-color: transparent;
    color: #000000;
    padding: 20px 30px;
    border-bottom-left-radius: 15px;
@@ -85,4 +88,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+    
  }
+
